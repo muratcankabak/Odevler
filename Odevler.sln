@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ref_vs_out", "ref_vs_out\ref_vs_out.csproj", "{A421C270-5171-470D-8C68-F842B1CC1407}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ref_vs_out", "ref_vs_out\ref_vs_out.csproj", "{A421C270-5171-470D-8C68-F842B1CC1407}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{51055380-52E4-4D7A-A093-03B96FFCBD2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{51055380-52E4-4D7A-A093-03B96FFCBD2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Gun", "3.Gun", "{C9CA2BAC-A0F4-46BD-B448-266F385CD7AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Gun", "4.Gun", "{527F9BD7-566F-42EC-BE8A-9FFBD31113BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictionary_Odev", "MyDictionary_Odev\MyDictionary_Odev.csproj", "{A3B50A66-3533-47F0-BC9C-80DC67BC7236}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{51055380-52E4-4D7A-A093-03B96FFCBD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51055380-52E4-4D7A-A093-03B96FFCBD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51055380-52E4-4D7A-A093-03B96FFCBD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B50A66-3533-47F0-BC9C-80DC67BC7236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B50A66-3533-47F0-BC9C-80DC67BC7236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B50A66-3533-47F0-BC9C-80DC67BC7236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B50A66-3533-47F0-BC9C-80DC67BC7236}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A421C270-5171-470D-8C68-F842B1CC1407} = {C9CA2BAC-A0F4-46BD-B448-266F385CD7AF}
 		{51055380-52E4-4D7A-A093-03B96FFCBD2C} = {C9CA2BAC-A0F4-46BD-B448-266F385CD7AF}
+		{A3B50A66-3533-47F0-BC9C-80DC67BC7236} = {527F9BD7-566F-42EC-BE8A-9FFBD31113BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6308FDAE-70E6-4124-A929-5363F616FF5A}
