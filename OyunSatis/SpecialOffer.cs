@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OyunSatisi
+namespace OyunSatis
 {
-    public class SpecialOffer : IEntity
+    public class SpecialOffer
     {
         public int OfferId { get; set; }
         public string OfferName { get; set; }

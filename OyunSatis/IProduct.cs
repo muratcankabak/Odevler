@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OyunSatisi
+namespace OyunSatis
 {
-    public interface IPerson
+    public interface IProduct
     {
     }
 }

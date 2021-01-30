@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OyunSatisi
+namespace OyunSatis
 {
-    public interface IProjectManager<T>
+    public interface IProjectService<T>
     {
         public void Add(T entity);
         public void Update(T entity);

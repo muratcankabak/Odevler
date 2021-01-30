@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OyunSatisi
+namespace OyunSatis
 {
     public class Game : Product
     {
+       
         public string Genre { get; set; }
-
     }
 }
